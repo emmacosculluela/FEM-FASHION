@@ -1,0 +1,29 @@
+<template>
+  <div class="home">
+
+    <b-carousel
+     id="carousel-fade"
+     fade
+     indicators
+     img-width="1024"
+     img-height="480"
+    >
+    <b-carousel-slide
+     img-src="../assets/slider1.jpeg"
+    >
+    </b-carousel-slide>
+    <b-carousel-slide
+      img-src="../assets/slider2.jpeg"
+    ></b-carousel-slide>
+    <b-carousel-slide
+      img-src="../assets/slider3.jpeg"
+    ></b-carousel-slide>
+    <b-carousel-slide
+      img-src="../assets/slider4.jpeg"
+    ></b-carousel-slide>
+    <b-carousel-slide
+      img-src="../assets/slider5.jpeg"
+    ></b-carousel-slide>
+  </b-carousel>
+</div>
+</template>
